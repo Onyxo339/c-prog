@@ -1,0 +1,16 @@
+#include <stdio.h>
+#define pi 3.14
+
+int main() 
+{ 
+    float degree, radian;  
+  
+    printf("Enter angle in Degrees\n");  
+    scanf("%f", &degree);  
+  
+    radian = degree * ( pi / 180.0 );  
+  
+    printf("Angle in Radian is %f\n", radian);
+
+    return 0;
+}
