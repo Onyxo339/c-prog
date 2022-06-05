@@ -19,4 +19,5 @@ int main(){
         printf("%f; %f; %f; %f \n", i, degToRad(i), sin(degToRad(i)), cos(degToRad(i)));
     }
     return 0;
+
 }
